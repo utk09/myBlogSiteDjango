@@ -8,12 +8,12 @@ A simple blog-site written in Django
 4) The folder structure will be something like this:
 
 myblogsite
-|
+
 |--> myblogsite
-|
+
 |--> posts
-|
+
 |--> db.sqlite3
-|
+
 |--> manage.py
 
