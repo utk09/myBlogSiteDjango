@@ -1,0 +1,23 @@
+{% extends 'posts/layout.html' %}
+{% block content %}
+<div class="container">
+    <!--<h2>This is a h2 tag from index html File</h2>-->
+    <h3 class="container center-align blue lighten-2">{{title}}</h3>
+</div>
+<div class="card">
+    <div class="card-content">
+        <h5><strong>{{post.title}}</strong></h5>
+        <hr>
+    </div>
+    <div class="card-content">
+        {{post.body}}
+    </div>
+    <div class="card-content">
+        {{post.image}}
+    </div>
+    <div class="card-action">
+        {{post.created_at}}
+    </div>
+</div>
+<!--<a href="/posts" class="btn">Go Back</a>-->
+{% endblock %}

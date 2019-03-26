@@ -1,0 +1,18 @@
+{% extends 'posts/layout.html' %}
+{% block content %}
+<div class="container">
+    <!--<h2>This is a h2 tag from index html File</h2>-->
+    <h3 class="container center-align blue lighten-2">{{title}}</h3>
+</div>
+<ul class="collection">
+    {% for post in posts %}
+
+    <li class="collection-item">
+        <a class="center-align" href="/posts/details/{{post.id}}">
+            {{post.title}}
+        </a>
+    </li>
+
+    {% endfor %}
+</ul>
+{% endblock %}
