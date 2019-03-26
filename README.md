@@ -7,6 +7,7 @@ A simple blog-site written in Django
 3) Copy Paste the contents outside the myBlogSiteDjango folder
 4) The folder structure will be something like this:
 myblogsite
+
 |--> myblogsite
 |--> posts
 |--> db.sqlite3
